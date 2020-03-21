@@ -29,10 +29,8 @@ html{
     margin-bottom: 128px;
 }
 .page_header {
-    font-size: 14px;
-    width: 50%;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
 }
 .logo {
     font-size: 26px;
@@ -50,6 +48,13 @@ html{
     text-decoration: none;
     text-transform: uppercase;
     transition: color .2s linear;
+}
+.header_item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.header_item:last-child {
+    margin-right: 0px;
 }
 .menu_item__link:hover,
 .menu_item__link:focus {
