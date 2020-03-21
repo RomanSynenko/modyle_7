@@ -30,7 +30,7 @@ html{
 }
 .page_header {
     font-size: 14px;
-    width: 52%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
@@ -116,7 +116,7 @@ html{
     margin-bottom: 12px;
 }
 .services__item__text {
-    font-family: 'Roboto Slab', 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;
