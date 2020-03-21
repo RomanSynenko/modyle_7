@@ -1,0 +1,201 @@
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.site_navigation {
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.page_header {
+    font-size: 14px;
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 26px;
+    line-height: 41px;
+    color: #fed136;
+    text-decoration: none;
+    font-family: 'Wisdom';
+    font-weight: 600;
+}
+.menu_item__link {
+    font-size: 14px;
+    line-height: 41px;
+    font-weight: 600;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .2s linear;
+}
+.menu_item__link:hover,
+.menu_item__link:focus {
+    color: #fed136;
+}
+.services {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.services_text {
+    font-family: 'Merriweather', 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: italic;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 82px;
+}
+.services_card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 124px;
+}
+.e_commerce::before {
+    content: '';
+    background: url('../image/icon/icon1.png') center no-repeat;
+    border: 3px solid #fed136;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 28px;
+}
+.responsive_web::before {
+    content: '';
+    background: url('../image/icon/icon2.png') center no-repeat;
+    border: 3px solid #fed136;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 28px;
+}
+.web_security::before {
+    content: '';
+    background: url('../image/icon/icon3.png') center no-repeat;
+    border: 3px solid #fed136;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 28px;
+}
+.services_item_link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 12px;
+}
+.services__item__text {
+    font-family: 'Roboto Slab', 'Merriweather', serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #777777;
+}
+/*form*/
+.contact_form {
+    padding: 106px 0 114px;
+    background-color: #222222;
+    background-image: url('../image/map.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.contact_us {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.form__element {
+    display: flex;
+    justify-content: space-between;
+}
+.input__area {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width: 458px;
+    height: 54px;
+    display: block;
+    margin: 0 28px 28px 0;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+}
+.input__validation:focus:valid {
+    outline: 2px solid #00ff00;
+}
+.input__validation:focus:invalid {
+    outline: 2px solid #ff0000;
+}
+.text__area {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width: 458px;
+    height: 218px;
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    padding: 20px;
+    resize: none;
+}
+.input__area::placeholder,
+.text__area::placeholder {
+    text-transform: uppercase;
+}
+.submit__button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: #fed136;
+    width: 240px;
+    height: 66px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.submit__button:hover,
+.submit__button:focus {
+    background: #ffffff;
+    color: #fed136;
+}
